@@ -1,0 +1,127 @@
+main {
+    margin-top: 3.2rem;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+main div.container .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .div-content-info-main h1 {
+    font-size: 3rem;
+    color: var(--color-white);
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+}
+
+main .div-content-info-main p {
+    color: var(--color-white);
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+}
+
+main .div-content-info-main .div-btn-main button {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px 2px 20px 2px;
+    border: none;
+    outline: none;
+    background: var(--color-primary);
+    color: var(--color-white);
+    font-weight: 600;
+    transition: filter 0.3s ease-in;
+}
+
+main .div-content-info-main .div-btn-main button:hover {
+    filter: brightness(110%);
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    main {
+        height: auto;
+    }
+    .div-image-hero {
+        text-align: center;
+        display: none;
+    }
+    .div-image-hero img {
+        width: 200px;
+    }
+    main .div-content-info-main h1 {
+        font-size: 2rem;
+    }
+    .div-btn-main {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    main .div-content-info-main .div-btn-main button {
+        width: 300px;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    main {
+        height: auto;
+    }
+    .container {
+        height: 100%;
+    }
+    .div-image-hero {
+        text-align: center;
+        display: none;
+    }
+    .div-image-hero img {
+        width: 200px;
+    }
+    main .div-content-info-main h1 {
+        font-size: 2rem;
+    }
+    .div-btn-main {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    main .div-content-info-main .div-btn-main button {
+        width: 300px;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    main {
+        height: auto;
+    }
+    .div-image-hero img {
+        width: 100%;
+    }
+    main .div-content-info-main p {
+        font-size: 14px;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .div-image-hero img {
+        width: 100%;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
